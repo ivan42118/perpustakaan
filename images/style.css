@@ -1,0 +1,216 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #CCC;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+}
+#main {
+	background-color: #ffffff;
+	width: 950px;
+	margin: 0 auto;
+	border: 1px ;
+	-moz-box-shadow: -5px -5px 5px #888;
+	-webkit-box-shadow: -5px -5px 5px #888;
+	box-shadow: -5px -5px 5px #888;
+}
+.clear {
+	clear:both;
+	float:none;
+}
+#header {
+	background-color: #000000;
+}
+
+#menu-atas{
+	background-image:url(../images/menu-atas.gif);
+	background-color: #CCC;
+	text-shadow: #0FF;
+	border: 1px solid #FFF;
+	border-bottom:2px solid #9cc;
+	padding:8px;
+	padding-bottom:8px;
+}
+
+
+#menu_user{
+	color : #333333;
+	font-size: 13px;
+	margin-right: 20px;
+	margin-left: 5px;
+	text-decoration:none;
+	width:200;
+	float:left;
+}
+#menu_tanggal {
+	color : #333333;
+	font-size: 13px;
+	margin-right:5px;	
+}
+#menu-atas li a:hover {
+	color : #999;
+}
+#footer {
+	background-color:#333;
+	font-size:12px;
+	font:Tahoma, Geneva, sans-serif;
+	color:#FFF;
+	border: 1px solid #FFF;
+	padding:20px;
+}
+
+#content {
+	width : 750px;
+	background-color:#FFF;
+	
+}
+
+#menu-kiri {
+	margin:5px;
+	width:200px;
+	float:left;
+}
+#menu-tengah {
+	margin:5px;
+	width:730px;
+	float:left;
+}
+
+#bg_menu {
+	background-color: #ccc;
+	background-image:url(../images/menu-biru.gif);
+	border:1px solid #333;
+	border-bottom:0px;
+	padding:7px;
+	padding-left:10px;
+	color:#ffffff;
+	font-weight:bold;
+	font-size:11px;
+	height:13px;
+
+}
+#content_menu {
+	background-color: #FFF;
+	border: 1px solid #9CC;
+	line-height: 16px;
+	padding: 3px;
+	margin-bottom: 10px;
+	font-size:14px;
+	padding:10px;
+}
+#left_menu {
+	background-color: #FFF;
+	border: 1px solid #9CC;
+	line-height: 20px;
+	padding: 7px;
+	margin-bottom: 10px;
+	font-size:14px;
+}
+
+#left_menu a {
+	color: #00C;
+	font-size: 12px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:normal;
+	text-decoration:none;
+	
+	
+}
+#left_menu a:hover {
+	color:#0FF;
+}
+
+
+/* CSS for Zebra Table in index.html */
+.zebra-table {
+	background-color:#FFF;
+	font-size:12px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	border-collapse: collapse;
+	border: 1px solid #9cc;
+	overflow: hidden;
+	margin-bottom:10px;
+	}
+.zebra-table th{
+	background-color:#9FF;
+	color:;
+}
+.zebra-table tbody tr:hover td
+{ background:#f2f2f2;
+}
+.zebra-table th,.zebra-table td{
+	vertical-align: top;
+	padding:3px 3px;
+	margin:0;
+	border-top:1px solid #9cc;
+	border-right:1px solid #9cc;
+}
+.zebra-table tbody tr:nth-child(odd) { /* Make table like zebra */
+	background: #FFF;
+}
+.zebra-table  a {
+	text-decoration:none;
+	text-shadow:#FF9;
+}
+.zebra-table  a:hover {
+	color:#0033cc;
+}
+
+/* End CSS for Zebra Table in index.html */
+
+
+/*menu_header */
+#menu_header {
+	font-size:12px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	border-collapse: collapse;
+	overflow: hidden;
+	margin-bottom:10px;
+}
+#menu_bottom {
+	font-size:12px;
+	color:#00F;
+	font-family:Verdana, Geneva, sans-serif;
+	border-collapse: collapse;
+	overflow: hidden;
+	margin-bottom:50px;
+}
+
+/*menu_header */
+#menu_header2 {
+	font-size:12px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	border-collapse: collapse;
+	overflow: hidden;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+
+/*table home */
+.table_home {
+	background-color:#FFF;
+	font-size:12px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	border-collapse: collapse;
+	overflow: hidden;
+	margin-top:10px;
+	margin-bottom:200px;
+	}
+.table_home tbody td:hover
+{ background: #d0dafd;
+}
+	
+.img_home{
+	border:1px solid #9cc;
+}
+.table_input {
+	
+	background-color:#FFF;
+	font-size:12px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	border-collapse: collapse;
+	border: 1px solid #9cc;
+	overflow: hidden;
+	margin-bottom:100px;
+}
