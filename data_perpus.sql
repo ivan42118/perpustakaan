@@ -105,7 +105,7 @@ CREATE TABLE `tb_pengguna` (
   `id_pengguna` int(11) NOT NULL,
   `nama_pengguna` varchar(20) NOT NULL,
   `username` varchar(20) NOT NULL,
-  `password` varchar(15) NOT NULL,
+  `password` varchar(35) NOT NULL,
   `level` enum('Administrator','Petugas','','') NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
